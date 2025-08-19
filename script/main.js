@@ -99,7 +99,7 @@ const animationTimeline = () => {
         1.5, {
             visibility: "visible",
         },
-        0.05
+        0.07
     )
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
@@ -245,8 +245,8 @@ const animationTimeline = () => {
             visibility: "visible",
             opacity: 0,
             scale: 80,
-            repeat: 3,
-            repeatDelay: 1.4,
+            repeat: 2,
+            repeatDelay: 0.8,
         },
         0.3
     )
@@ -255,7 +255,7 @@ const animationTimeline = () => {
         y: 30,
         zIndex: "-1",
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine p", 1, ideaTextTrans, 0.7)
     .to(
         ".last-smile",
         0.5, {
